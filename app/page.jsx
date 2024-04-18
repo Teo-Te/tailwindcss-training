@@ -4,8 +4,11 @@ export default function Home() {
   return (
     <div>
       <h1>TailwindCSS Training</h1>
-      <Link href="/emailSub">Fut e bjer jqj u merzitem</Link>
-      <Link href="/priceGrids">Fut e bjer jqj u merzitem</Link>
+      <div className='flex flex-col'>
+        <Link href="/emailSub">Email Sub</Link>
+        <Link href="/priceGrids">Price Cards</Link>
+        <Link href="/productModal">Product Modal</Link>
+      </div>
     </div>
   );
 }
