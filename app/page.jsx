@@ -9,6 +9,7 @@ export default function Home() {
         <Link href="/priceGrids">Price Cards</Link>
         <Link href="/productModal">Product Modal</Link>
         <Link href="/gallery">Gallery</Link>
+        <Link href="/login">Log In</Link>
       </div>
     </div>
   );

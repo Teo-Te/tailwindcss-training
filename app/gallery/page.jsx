@@ -26,6 +26,10 @@ export default function Gallery() {
                         <Link href="#">Icons</Link>
                         <div className="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"></div>
                     </div>
+                    <div className="group">
+                        <Link href="/">Back</Link>
+                        <div className="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"></div>
+                    </div>
                 </div>
                 {/* Search */}
                 <div className="flex flex-col justify-between space-y-5 md:flex-row md:space-y-0">
