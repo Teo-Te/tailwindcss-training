@@ -8,6 +8,7 @@ export default function Home() {
         <Link href="/emailSub">Email Sub</Link>
         <Link href="/priceGrids">Price Cards</Link>
         <Link href="/productModal">Product Modal</Link>
+        <Link href="/gallery">Gallery</Link>
       </div>
     </div>
   );
