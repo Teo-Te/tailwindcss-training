@@ -1,5 +1,12 @@
 import "./globals.css";
-import { Mulish, Rokkitt } from "next/font/google";
+import { Mulish, Rokkitt, Bai_Jamjuree } from "next/font/google";
+
+const bai_jamjuree = Bai_Jamjuree({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-bai-jamjuree",
+  weight: ['400', '600'],
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -20,7 +27,7 @@ const rokkitt = Rokkitt({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${mulish.variable} ${rokkitt.variable}`}>
+    <html lang="en" className={`${mulish.variable} ${rokkitt.variable} ${bai_jamjuree.variable}`}>
       <body>{children}</body>
     </html>
   );

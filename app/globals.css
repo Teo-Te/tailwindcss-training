@@ -2,3 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
+.clipboard-container {
+    @apply max-w-6xl mx-auto text-center px-10;
+}
+
+.clipboard-h3 {
+    @apply mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl;
+}
+
+.clipboard-button {
+    @apply flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
+}
+
+.clipboard-p {
+    @apply max-w-3xl mx-auto text-xl leading-9 text-center text-grayishBlue;
+}
+
+.clipboard-h5 {
+    @apply mb-2 text-2xl font-bold text-darkGrayishBlue;
+}
+
+.clipboard-icon:hover {
+    filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg) brightness(101%) contrast(94%);
+}
+
+/* Also for the h3 and h5, @layer base can be used, but since I'm gonna have multiple pages
+in this project I am just defining it seperately, leaving it here as a reminder 
+@layer base {
+    h3 {
+        @apply mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl;
+    }
+    h5 {
+        @apply mb-2 text-2xl font-bold text-darkGrayishBlue;
+    }
+}
+*/

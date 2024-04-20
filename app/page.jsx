@@ -10,6 +10,7 @@ export default function Home() {
         <Link href="/productModal">Product Modal</Link>
         <Link href="/gallery">Gallery</Link>
         <Link href="/login">Log In</Link>
+        <Link href="/clipboard">Clipboard</Link>
       </div>
     </div>
   );

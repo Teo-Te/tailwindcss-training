@@ -10,6 +10,13 @@ module.exports = {
       fontFamily: {
         sans: ['var(--font-mulish)'],
         mono: ['var(--font-rokkitt)'],
+        bai: ['var(--font-bai-jamjuree)'],
+      },
+      colors: {
+        strongCyan: 'hsl(172, 67%, 45%)',
+        lightBlue: 'hsl(233, 100%, 69%)',
+        darkGrayishBlue: 'hsl(210, 10%, 33%)',
+        grayishBlue: 'hsl(201, 11%, 66%)',
       },
     },
   },
