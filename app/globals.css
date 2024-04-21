@@ -22,7 +22,9 @@
     @apply mb-2 text-2xl font-bold text-darkGrayishBlue;
 }
 
+
 .clipboard-icon:hover {
+    /* I used the filter property to change the color of the icon on hover since it was added as a png image */
     filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg) brightness(101%) contrast(94%);
 }
 
