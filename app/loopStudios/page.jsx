@@ -43,6 +43,10 @@ export default function LoopStudios() {
                             <Link href="#">Support</Link>
                             <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
                         </div>
+                        <div className="group">
+                            <Link href="/">Back</Link>
+                            <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                        </div>
                     </div>
                     {/* TODO: Hamburger menu */}
                     <div className="md:hidden">
@@ -61,6 +65,7 @@ export default function LoopStudios() {
                     <Link href="#" className="hover:text-pink-500">Events</Link>
                     <Link href="#" className="hover:text-pink-500">Products</Link>
                     <Link href="#" className="hover:text-pink-500">Support</Link>
+                    <Link href="/" className="hover:text-pink-500">Back</Link>
                 </div>
 
                 <div className="max-w-lg mt-32 mb-32 p-4 font-sans text-4xl text-white uppercase border-2 md:p-10 
@@ -262,6 +267,10 @@ export default function LoopStudios() {
                              {/* Menu item 5 */}
                              <div className="h-10 group">
                                 <Link href="#">Support</Link>
+                                <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                            </div>
+                            <div className="h-10 group">
+                                <Link href="/">Back</Link>
                                 <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
                             </div>
                         </div>
