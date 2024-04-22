@@ -11,6 +11,8 @@ module.exports = {
         sans: ['var(--font-mulish)'],
         mono: ['var(--font-rokkitt)'],
         bai: ['var(--font-bai-jamjuree)'],
+        josefin: ['var(--font-josefin-sans)'],
+        alata: ['var(--font-alata)'],
       },
       colors: {
         strongCyan: 'hsl(172, 67%, 45%)',
