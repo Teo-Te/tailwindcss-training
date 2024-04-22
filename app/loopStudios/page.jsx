@@ -51,9 +51,9 @@ export default function LoopStudios() {
                     {/* TODO: Hamburger menu */}
                     <div className="md:hidden">
                         <button id="menu-btn" onClick={navToggle} type="button" className="z-40 block hamburger md:hidden focus:outline-none">
-                            <span className="hamburger-top"></span>
-                            <span className="hamburger-middle"></span>
-                            <span className="hamburger-bottom"></span>
+                            <span className="hamburger-top bg-white"></span>
+                            <span className="hamburger-middle bg-white"></span>
+                            <span className="hamburger-bottom bg-white"></span>
                         </button>
                     </div>
                 </nav>

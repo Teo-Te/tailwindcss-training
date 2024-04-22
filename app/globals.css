@@ -77,12 +77,12 @@ in this project I am just defining it seperately, leaving it here as a reminder
 .hamburger-top,
 .hamburger-middle,
 .hamburger-bottom {
+    content: '';
     position: absolute;
     width: 24px;
     height: 2px;
     top: 0;
     left: 0;
-    background: #fff;
     transform: rotate(0);
     transition: all 0.5s;
 
@@ -110,4 +110,9 @@ in this project I am just defining it seperately, leaving it here as a reminder
 
 .open .hamburger-bottom {
     transform: rotate(-45deg) translateY(6px) translateX(-6px);
+}
+
+.shortly-icon:hover {
+    /* I used the filter property to change the color of the icon on hover since it was added as a png image */
+    filter: invert(79%) sepia(61%) saturate(464%) hue-rotate(130deg) brightness(89%) contrast(85%);
 }

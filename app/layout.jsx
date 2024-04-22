@@ -1,5 +1,6 @@
 import "./globals.css";
-import { Mulish, Rokkitt, Bai_Jamjuree, Josefin_Sans, Alata } from "next/font/google";
+import { Mulish, Rokkitt, Bai_Jamjuree, Josefin_Sans, 
+  Alata, Poppins } from "next/font/google";
 
 const bai_jamjuree = Bai_Jamjuree({
   subsets: ["latin"],
@@ -38,9 +39,18 @@ const alata = Alata({
   weight: "400",
 });
 
+const poppins = Poppins({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-poppins",
+  weight: ['400', '500', '700'],
+});
+
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${mulish.variable} ${rokkitt.variable} ${bai_jamjuree.variable} ${josefin_sans.variable} ${alata.variable}`}>
+    <html lang="en" className={`${mulish.variable} ${rokkitt.variable} 
+    ${bai_jamjuree.variable} ${josefin_sans.variable} ${alata.variable} 
+    ${poppins.variable}`}>
       <body>{children}</body>
     </html>
   );
