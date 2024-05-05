@@ -5,6 +5,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
@@ -15,6 +16,8 @@ module.exports = {
         alata: ['var(--font-alata)'],
         popins: ['var(--font-poppins)'],
         barlow: ['var(--font-barlow-semi-condensed)'],
+        raleway: ['var(--font-raleway)'],
+        opensans: ['var(--font-open-sans)'],
       },
       colors: {
         strongCyan: 'hsl(172, 67%, 45%)',
@@ -28,13 +31,29 @@ module.exports = {
         grayishViolet: 'hsl(257, 7%, 63%)',
         veryDarkBlue: 'hsl(255, 11%, 22%)',
         veryDarkViolet: 'hsl(260, 8%, 14%)',
+        darkBlue: 'hsl(217, 28%, 15%)',
+        darkBlue1: 'hsl(218, 28%, 13%)',
+        darkBlue2: 'hsl(216, 53%, 9%)',
+        darkBlue3: 'hsl(219, 30%, 18%)',
+        accentCyan: 'hsl(176, 68%, 64%)',
+        accentBlue: 'hsl(198, 60%, 50%)',
+        lightRed: 'hsl(0, 100%, 63%)',
+      },
+      backgroundImage: (theme) => ({
+        'logo-dark-mode': "url('/Fylo/logo-dark-mode.svg')",
+        'logo-light-mode': "url('/Fylo/logo-light-mode.svg')",
+        'curvy-dark-mode': "url('/Fylo/bg-curvy-dark-mode.svg')",
+        'curvy-light-mode': "url('/Fylo/bg-curvy-light-mode.svg')",
+      }),
+      variants: {
+        extend: {
+          backgroundImage: ['dark'],
+        }
       },
       spacing:{
         180: '32rem',
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/line-clamp')
-  ],
+  plugins: [],
 };

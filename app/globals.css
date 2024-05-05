@@ -116,3 +116,4 @@ in this project I am just defining it seperately, leaving it here as a reminder
     /* I used the filter property to change the color of the icon on hover since it was added as a png image */
     filter: invert(79%) sepia(61%) saturate(464%) hue-rotate(130deg) brightness(89%) contrast(85%);
 }
+

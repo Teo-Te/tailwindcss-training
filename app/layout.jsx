@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Mulish, Rokkitt, Bai_Jamjuree, Josefin_Sans, 
-  Alata, Poppins, Barlow_Semi_Condensed } from "next/font/google";
+  Alata, Poppins, Barlow_Semi_Condensed, Raleway, Open_Sans } from "next/font/google";
 
 const bai_jamjuree = Bai_Jamjuree({
   subsets: ["latin"],
@@ -53,12 +53,30 @@ const barlow_semi_condensed = Barlow_Semi_Condensed({
   weight: ['400', '500', '600'],
 });
 
+const raleway = Raleway({
+  subsets: ["latin"],
+  display: "swap",
+  style: ['normal', 'italic'],
+  variable: "--font-raleway",
+  weight: ['400', '700'],
+});
+
+const open_sans = Open_Sans({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-open-sans",
+  weight: ['400', '700'],
+});
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${mulish.variable} ${rokkitt.variable} 
     ${bai_jamjuree.variable} ${josefin_sans.variable} ${alata.variable} 
-    ${poppins.variable} ${barlow_semi_condensed.variable}`}>
-      <body>{children}</body>
+    ${poppins.variable} ${barlow_semi_condensed.variable} ${raleway.variable}
+    ${open_sans.variable} scroll-smooth`}>
+      <body>
+          {children}
+      </body>
     </html>
   );
 }
