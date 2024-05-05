@@ -13,6 +13,7 @@ export default function Home() {
         <Link href="/clipboard">Clipboard</Link>
         <Link href="/loopStudios">Loop Studios</Link>
         <Link href="/shortly">Shortly</Link>
+        <Link href="/testimonial-grid">Testimonial Grid</Link>
       </div>
     </div>
   );

@@ -6,7 +6,6 @@ export default function Shortly(){
     const handleErrors = (e) => {
         const input = document.getElementById('link-input');
         const errorMsg = document.getElementById('error-msg');
-        const linkForm = document.getElementById('link-form');
         e.preventDefault();
 
         function isUrlValid(str) {

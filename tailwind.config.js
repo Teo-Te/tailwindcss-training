@@ -14,6 +14,7 @@ module.exports = {
         josefin: ['var(--font-josefin-sans)'],
         alata: ['var(--font-alata)'],
         popins: ['var(--font-poppins)'],
+        barlow: ['var(--font-barlow-semi-condensed)'],
       },
       colors: {
         strongCyan: 'hsl(172, 67%, 45%)',
@@ -33,5 +34,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/line-clamp')
+  ],
 };

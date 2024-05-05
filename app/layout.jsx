@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Mulish, Rokkitt, Bai_Jamjuree, Josefin_Sans, 
-  Alata, Poppins } from "next/font/google";
+  Alata, Poppins, Barlow_Semi_Condensed } from "next/font/google";
 
 const bai_jamjuree = Bai_Jamjuree({
   subsets: ["latin"],
@@ -46,11 +46,18 @@ const poppins = Poppins({
   weight: ['400', '500', '700'],
 });
 
+const barlow_semi_condensed = Barlow_Semi_Condensed({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-barlow-semi-condensed",
+  weight: ['400', '500', '600'],
+});
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${mulish.variable} ${rokkitt.variable} 
     ${bai_jamjuree.variable} ${josefin_sans.variable} ${alata.variable} 
-    ${poppins.variable}`}>
+    ${poppins.variable} ${barlow_semi_condensed.variable}`}>
       <body>{children}</body>
     </html>
   );
