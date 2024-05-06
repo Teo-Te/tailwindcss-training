@@ -117,3 +117,78 @@ in this project I am just defining it seperately, leaving it here as a reminder
     filter: invert(79%) sepia(61%) saturate(464%) hue-rotate(130deg) brightness(89%) contrast(85%);
 }
 
+@media (min-width:1020px) {
+    .bgHeroBookmark {
+        width: 2000px;
+        height: 300px;
+        left: 30%;
+        @apply absolute rounded-l-full top-52 bg-softBlue;
+    }
+    .bgTabsBookmark {
+        width: 2000px;
+        height: 300px;
+        right: 60%;
+        @apply absolute rounded-r-full top-60 bg-softBlue;
+    }
+}
+
+.bookmark-icon:hover {
+    /* I used the filter property to change the color of the icon on hover since it was added as a png image */
+    filter: invert(53%) sepia(38%) saturate(3303%) hue-rotate(326deg) brightness(101%) contrast(96%);
+}
+
+/* Hamburger Menu Bookmark */
+
+.hamburger-bookmark {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: all 0.25;
+    position: relative;
+}
+
+.hamburger-bookmark-top,
+.hamburger-bookmark-middle,
+.hamburger-bookmark-bottom {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 3px;
+    top: 0;
+    left: 0;
+    background: #000;
+    transform: rotate(0);
+    transition: all 0.5s;
+
+}
+
+.hamburger-bookmark-middle {
+    transform: translateY(7px);
+}
+
+.hamburger-bookmark-bottom {
+    transform: translateY(14px);
+    background: #000;
+}
+
+.open-bookmark {
+    transform: rotate(90deg);
+    transform: translateY(0px);
+    position: fixed;
+    top: 50px;
+    right: 25px;
+}
+
+.open-bookmark .hamburger-bookmark-top {
+    transform: rotate(45deg) translateY(6px) translateX(6px);
+    background-color: #fff;
+}
+
+.open-bookmark .hamburger-bookmark-middle {
+    display: none;
+}
+
+.open-bookmark .hamburger-bookmark-bottom {
+    transform: rotate(-45deg) translateY(6px) translateX(-6px);
+    background-color: #fff;
+}

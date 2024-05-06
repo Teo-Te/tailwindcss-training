@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Mulish, Rokkitt, Bai_Jamjuree, Josefin_Sans, 
-  Alata, Poppins, Barlow_Semi_Condensed, Raleway, Open_Sans } from "next/font/google";
+  Alata, Poppins, Barlow_Semi_Condensed, Raleway, Open_Sans, Rubik } from "next/font/google";
 
 const bai_jamjuree = Bai_Jamjuree({
   subsets: ["latin"],
@@ -68,12 +68,19 @@ const open_sans = Open_Sans({
   weight: ['400', '700'],
 });
 
+const rubik = Rubik({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-rubik",
+  weight: ['400', '600', '700'],
+});
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${mulish.variable} ${rokkitt.variable} 
     ${bai_jamjuree.variable} ${josefin_sans.variable} ${alata.variable} 
     ${poppins.variable} ${barlow_semi_condensed.variable} ${raleway.variable}
-    ${open_sans.variable} scroll-smooth`}>
+    ${open_sans.variable} ${rubik.variable} scroll-smooth`}>
       <body>
           {children}
       </body>

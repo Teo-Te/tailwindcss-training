@@ -1,4 +1,3 @@
-
 import Link from 'next/link';
 import { Providers } from "@/app/providers";
 import ThemeSwitch from '@/components/ThemeSwitch2';
@@ -21,6 +20,7 @@ export default function Home() {
           <Link href="/shortly">Shortly</Link>
           <Link href="/testimonial-grid">Testimonial Grid</Link>
           <Link href="/fylo">Fylo</Link>
+          <Link href="/bookmark">Bookmark</Link>
         </div>
       </div>
     </Providers>

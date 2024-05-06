@@ -18,6 +18,7 @@ module.exports = {
         barlow: ['var(--font-barlow-semi-condensed)'],
         raleway: ['var(--font-raleway)'],
         opensans: ['var(--font-open-sans)'],
+        rubik: ['var(--font-rubik)'],
       },
       colors: {
         strongCyan: 'hsl(172, 67%, 45%)',
@@ -38,6 +39,10 @@ module.exports = {
         accentCyan: 'hsl(176, 68%, 64%)',
         accentBlue: 'hsl(198, 60%, 50%)',
         lightRed: 'hsl(0, 100%, 63%)',
+        softBlue: 'hsl(231, 69%, 60%)',
+        softRed: 'hsl(0, 94%, 66%)',
+        grayishBlue1: 'hsl(229, 8%, 60%)',
+        veryDarkBlue1: 'hsl(229, 31%, 21%)',
       },
       backgroundImage: (theme) => ({
         'logo-dark-mode': "url('/Fylo/logo-dark-mode.svg')",
