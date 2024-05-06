@@ -43,7 +43,7 @@ const poppins = Poppins({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-poppins",
-  weight: ['400', '500', '700'],
+  weight: ['400', '500','600', '700'],
 });
 
 const barlow_semi_condensed = Barlow_Semi_Condensed({

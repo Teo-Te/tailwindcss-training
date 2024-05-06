@@ -56,16 +56,16 @@ export default function Shortly(){
                         <img src="/Shortly/logo.svg" alt="logo" />
                          {/* Left menu */}
                          <div className="hidden lg:flex space-x-8 font-bold">
-                            <Link href="#" className='text-grayishViolet hover:text-veryDarkViolet'>Features</Link>
-                            <Link href="#" className='text-grayishViolet hover:text-veryDarkViolet'>Pricing</Link>
-                            <Link href="#" className='text-grayishViolet hover:text-veryDarkViolet'>Rescourses</Link>
-                            <Link href="/" className='text-grayishViolet hover:text-veryDarkViolet'>Back</Link>
+                            <Link href="#" className='text-grayishViolet hover:text-veryDarkViolet duration-200'>Features</Link>
+                            <Link href="#" className='text-grayishViolet hover:text-veryDarkViolet duration-200'>Pricing</Link>
+                            <Link href="#" className='text-grayishViolet hover:text-veryDarkViolet duration-200'>Rescourses</Link>
+                            <Link href="/" className='text-grayishViolet hover:text-veryDarkViolet duration-200'>Back</Link>
                          </div>
                     </div>
                     {/* Right menu */}
                     <div className="hidden lg:flex items-center space-x-6 font-bold text-grayishViolet">
-                        <div className="hover:text-veryDarkViolet">Log in</div>
-                        <Link href="#" className="px-8 py-3 font-bold text-white bg-cyan rounded-full hover:opacity-70">
+                        <div className="hover:text-veryDarkViolet duration-200">Log in</div>
+                        <Link href="#" className="px-8 py-3 font-bold text-white bg-cyan1 rounded-full hover:opacity-70 duration-200">
                             Sign Up
                         </Link>
                     </div>
@@ -79,12 +79,12 @@ export default function Shortly(){
                 {/* TODO: Mobile menu */}
                 <div id="menu" className="absolute hidden p-6 rounded-lg bg-darkViolet left-6 right-6 top-20 z-100">
                     <div className="flex flex-col items-center justify-center w-full space-y-6 font-bold text-white rounded-sm">
-                        <Link href="#" className='w-full text-center'>Features</Link>
-                        <Link href="#" className='w-full text-center'>Pricing</Link>
-                        <Link href="#" className='w-full text-center'>Rescourses</Link>
-                        <Link href="/" className='w-full text-center'>Back</Link>
-                        <div className="w-full pt-6 border-t border-gray-400 text-center">Log in</div>
-                        <Link href="#" className="w-full py-3 text-center rounded-full bg-cyan">
+                        <Link href="#" className='w-full text-center hover:text-cyan1 duration-200'>Features</Link>
+                        <Link href="#" className='w-full text-center hover:text-cyan1 duration-200'>Pricing</Link>
+                        <Link href="#" className='w-full text-center hover:text-cyan1 duration-200'>Rescourses</Link>
+                        <Link href="/" className='w-full text-center hover:text-cyan1 duration-200'>Back</Link>
+                        <Link href="#" className="w-full pt-6 border-t border-gray-400 text-center hover:text-cyan1 duration-200">Log in</Link>
+                        <Link href="#" className="w-full py-3 text-center rounded-full bg-cyan1 hover:opacity-80 duration-200">
                             Sign Up
                         </Link>
                     </div>
@@ -103,7 +103,7 @@ export default function Shortly(){
                             Build your brand's recognition and get detailed insights on how your links are performing.
                         </p>
                         <div className="mx-auto lg:mx-0">
-                            <Link href="#" className="py-5 px-10 text-2xl font-bold text-white bg-cyan rounded-full lg:py-4 hover:opacity-70">
+                            <Link href="#" className="py-5 px-10 text-2xl font-bold text-white bg-cyan1 rounded-full lg:py-4 hover:opacity-70 duration-200">
                                 Get Started
                             </Link>
                         </div>
@@ -121,7 +121,7 @@ export default function Shortly(){
                     bg-darkViolet rounded-lg md:flex-row md:space-y-0 md:space-x-3">
                         <input id='link-input' type="text" placeholder='Shorten Link Here' className="flex-1 p-3 border-2 
                         rounded-lg placeholder-yellow-500 focus:outline-none" />
-                        <button className="px-10 py-3 text-white bg-cyan rounded-lg hover:bg-cyanLight focus:outline none md:py-2">
+                        <button className="px-10 py-3 text-white bg-cyan1 rounded-lg hover:bg-cyanLight focus:outline none md:py-2 duration-200">
                             Shorten It!
                         </button>
                         {/* Error messages */}
@@ -135,10 +135,10 @@ export default function Shortly(){
                             https://arteofejzo.al
                         </p>
                         <div className="flex flex-col items-center justify-end flex-1 space-x-4 space-y-2 md:flex-row md:space-y-0">
-                            <div className="font-bold text-cyan">
+                            <div className="font-bold text-cyan1">
                                 https://short.al/af1828fe
                             </div>
-                            <button className="p-2 px-8 text-white bg-cyan rounded-lg hover:opacity-70 focus:outline-none">
+                            <button className="p-2 px-8 text-white bg-cyan1 rounded-lg hover:opacity-70 focus:outline-none duration-200">
                                 Copy
                             </button>
                         </div>
@@ -149,10 +149,10 @@ export default function Shortly(){
                             https://arteofejzo.al/punet
                         </p>
                         <div className="flex flex-col items-center justify-end flex-1 space-x-4 space-y-2 md:flex-row md:space-y-0">
-                            <div className="font-bold text-cyan">
+                            <div className="font-bold text-cyan1">
                                 https://short.al/af1998fe
                             </div>
-                            <button className="p-2 px-8 text-white bg-darkViolet rounded-lg hover:opacity-70 focus:outline-none">
+                            <button className="p-2 px-8 text-white bg-darkViolet rounded-lg hover:opacity-70 focus:outline-none duration-200">
                                 Copy
                             </button>
                         </div>
@@ -163,10 +163,10 @@ export default function Shortly(){
                             https://arteofejzo.al/punet/puna1
                         </p>
                         <div className="flex flex-col items-center justify-end flex-1 space-x-4 space-y-2 md:flex-row md:space-y-0">
-                            <div className="font-bold text-cyan">
+                            <div className="font-bold text-cyan1">
                                 https://short.al/aq0098fe
                             </div>
-                            <button className="p-2 px-8 text-white bg-cyan rounded-lg hover:opacity-70 focus:outline-none">
+                            <button className="p-2 px-8 text-white bg-cyan1 rounded-lg hover:opacity-70 focus:outline-none duration-200">
                                 Copy
                             </button>
                         </div>
@@ -188,9 +188,9 @@ export default function Shortly(){
             <section id="feature" className="pb-32 bg-gray-100">
                 <div className="relative container flex flex-col items-start px-6 mx-auto md:flex-row md:space-x-7">
                     {/* Horizontal Line */}
-                    <div className="hidden absolute top-24 left-16 h-3 bg-cyan md:block w-10/12"></div>
+                    <div className="hidden absolute top-24 left-16 h-3 bg-cyan1 md:block w-10/12"></div>
                     {/* Vertical Line */}
-                    <div className="absolute w-2 left-1/2 h-full -ml-1 bg-cyan md:hidden"></div>
+                    <div className="absolute w-2 left-1/2 h-full -ml-1 bg-cyan1 md:hidden"></div>
                     {/* Box 1 */}
                     <div className="relative flex flex-col p-6 space-y-6 bg-white rounded-lg md:w-1/3">
                         {/* Image Positioning */}
@@ -249,8 +249,8 @@ export default function Shortly(){
                     <h5 className="mx-auto space-y-10 text-4xl font-bold text-center text-white">
                         Boost your links today
                     </h5>
-                    <button className="px-10 py-5 mx-auto text-2xl font-bold text-white rounded-full bg-cyan hover:bg-cyanLight 
-                    md:text-base md:py-3 focus:outline-none">
+                    <button className="px-10 py-5 mx-auto text-2xl font-bold text-white rounded-full bg-cyan1 hover:bg-cyanLight 
+                    md:text-base md:py-3 focus:outline-none duration-200">
                         Get Started
                     </button>
                 </div>
@@ -266,37 +266,37 @@ export default function Shortly(){
                         <div className="flex flex-col items-center w-full md:items-start">
                             <div className="mb-5 font-bold text-white capitalize">Features</div>
                             <div className="flex flex-col items-center space-y-3 md:items-start">
-                                <Link href="#" className="text-grayishViolet hover:text-cyan">Link Shortening</Link>
-                                <Link href="#" className="text-grayishViolet hover:text-cyan">Branded Links</Link>
-                                <Link href="#" className="text-grayishViolet hover:text-cyan">Analytics</Link>
+                                <Link href="#" className="text-grayishViolet hover:text-cyan1 duration-200">Link Shortening</Link>
+                                <Link href="#" className="text-grayishViolet hover:text-cyan1 duration-200">Branded Links</Link>
+                                <Link href="#" className="text-grayishViolet hover:text-cyan1 duration-200">Analytics</Link>
                             </div>
                         </div>
                         {/* Menu 2 */}
                         <div className="flex flex-col items-center w-full md:items-start">
                             <div className="mb-5 font-bold text-white capitalize">Rescourses</div>
                             <div className="flex flex-col items-center space-y-3 md:items-start">
-                                <Link href="#" className="text-grayishViolet hover:text-cyan">Blog</Link>
-                                <Link href="#" className="text-grayishViolet hover:text-cyan">Developers</Link>
-                                <Link href="#" className="text-grayishViolet hover:text-cyan">Support</Link>
+                                <Link href="#" className="text-grayishViolet hover:text-cyan1 duration-200">Blog</Link>
+                                <Link href="#" className="text-grayishViolet hover:text-cyan1 duration-200">Developers</Link>
+                                <Link href="#" className="text-grayishViolet hover:text-cyan1 duration-200">Support</Link>
                             </div>
                         </div>
                         {/* Menu 3 */}
                         <div className="flex flex-col items-center w-full md:items-start">
                             <div className="mb-5 font-bold text-white capitalize">Company</div>
                             <div className="flex flex-col items-center space-y-3 md:items-start">
-                                <Link href="#" className="text-grayishViolet hover:text-cyan">About</Link>
-                                <Link href="#" className="text-grayishViolet hover:text-cyan">Our Team</Link>
-                                <Link href="#" className="text-grayishViolet hover:text-cyan">Careers</Link>
-                                <Link href="#" className="text-grayishViolet hover:text-cyan">Contact</Link>
+                                <Link href="#" className="text-grayishViolet hover:text-cyan1 duration-200">About</Link>
+                                <Link href="#" className="text-grayishViolet hover:text-cyan1 duration-200">Our Team</Link>
+                                <Link href="#" className="text-grayishViolet hover:text-cyan1 duration-200">Careers</Link>
+                                <Link href="#" className="text-grayishViolet hover:text-cyan1 duration-200">Contact</Link>
                             </div>
                         </div>
                     </div>
                     {/* Social Media */}
                     <div className="flex space-x-6">
-                        <img src="/Shortly/icon-facebook.svg" alt="facebook" className='shortly-icon' />
-                        <img src="/Shortly/icon-twitter.svg" alt="twitter" className='shortly-icon' />
-                        <img src="/Shortly/icon-pinterest.svg" alt="pinterest" className='shortly-icon' />
-                        <img src="/Shortly/icon-instagram.svg" alt="instagram" className='shortly-icon' />
+                        <img src="/Shortly/icon-facebook.svg" alt="facebook" className='shortly-icon duration-200' />
+                        <img src="/Shortly/icon-twitter.svg" alt="twitter" className='shortly-icon duration-200' />
+                        <img src="/Shortly/icon-pinterest.svg" alt="pinterest" className='shortly-icon duration-200' />
+                        <img src="/Shortly/icon-instagram.svg" alt="instagram" className='shortly-icon duration-200' />
                     </div>
                 </div>
             </footer>

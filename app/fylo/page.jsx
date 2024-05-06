@@ -12,11 +12,14 @@ export default function Fylo (){
                     <div className="bg-logo-light-mode dark:bg-logo-dark-mode bg-no-repeat h-20 w-48 mx-auto md:mx-0 md:absolute top-10 left-10"></div>
                 {/* Nav */}
                 <div className="flex items-center justify-center space-x-4 md:space-x-10 md:absolute top-12 right-10">
-                    <Link href="#features" className="hover:text-accentCyan">
-                    Features
+                    <Link href="#features" className="hover:text-accentCyan duration-200">
+                        Features
                     </Link>
-                    <Link href="#testimonials" className="hover:text-accentCyan">
-                    Testimonials
+                    <Link href="#testimonials" className="hover:text-accentCyan duration-200">
+                        Testimonials
+                    </Link>
+                    <Link href="/" className="hover:text-accentCyan duration-200">
+                        Back
                     </Link>
                     {/* Dark/Light toggle */}
                     <ThemeSwitch />
@@ -33,7 +36,7 @@ export default function Fylo (){
                             Fylo stores all your most important files in one secure location. Access them wherever you need, 
                             share and collaborate with friends family, and co-workers.
                         </p>
-                        <button className="p-3 rounded-full w-52 bg-accentCyan hover:scale-95">
+                        <button className="p-3 rounded-full font-semibold w-52 bg-accentCyan hover:scale-95 duration-200">
                             Get Started
                         </button>
                     </div>
@@ -217,7 +220,7 @@ export default function Fylo (){
                             <div className="w-full md:flex-1">
                                 <input type="text" placeholder='email@example.com' className="w-full bg-white px-10 py-3 rounded-full focus:outline-none" />
                             </div>
-                            <button className="w-full p-3 px-6 rounded-full bg-accentCyan md:w-56 hover:scale-95">
+                            <button className="w-full p-3 px-6 font-semibold rounded-full bg-accentCyan md:w-56 hover:scale-95 duration-200">
                                 Get Started For Free
                             </button>
                         </div>
@@ -254,7 +257,7 @@ export default function Fylo (){
                                     <Link href="#">About</Link>
                                     <Link href="#">Jobs</Link>
                                     <Link href="#">Press</Link>
-                                    <Link href="#">Blog</Link>
+                                    <Link href="/">Back</Link>
                                 </div>
                                 <div className="flex flex-col space-y-3">
                                     {/* Items */}
@@ -267,17 +270,17 @@ export default function Fylo (){
                             <div className="flex justify-center pb-10 space-x-3">
                                 <div>
                                     <Link href="#">
-                                        <img src="/Fylo/facebook.svg" alt="Facebook" className="p-2 bg-darkBlue rounded-full shortly-icon" />
+                                        <img src="/Fylo/facebook.svg" alt="Facebook" className="p-2 bg-darkBlue rounded-full shortly-icon duration-200" />
                                     </Link>
                                 </div>
                                 <div>
                                     <Link href="#">
-                                        <img src="/Fylo/twitter.svg" alt="Twitter" className="p-2 bg-darkBlue rounded-full shortly-icon" />
+                                        <img src="/Fylo/twitter.svg" alt="Twitter" className="p-2 bg-darkBlue rounded-full shortly-icon duration-200" />
                                     </Link>
                                 </div>
                                 <div>
                                     <Link href="#">
-                                        <img src="/Fylo/instagram.svg" alt="Instagram" className="p-2 bg-darkBlue rounded-full shortly-icon" />
+                                        <img src="/Fylo/instagram.svg" alt="Instagram" className="p-2 bg-darkBlue rounded-full shortly-icon duration-200" />
                                     </Link>
                                 </div>
                             </div>

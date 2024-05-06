@@ -62,6 +62,9 @@ export default function Bookmark() {
                     <Link href="#faq" className="tracking-widest hover:text-softRed">
                         FAQ
                     </Link>
+                    <Link href="/" className="tracking-widest hover:text-softRed">
+                        Back
+                    </Link>
                     <Link href="#" className="px-8 py-2 text-white bg-softRed border-2 border-softRed rounded-lg shadow-md 
                     hover:text-softRed hover:bg-white">
                         Login
@@ -85,6 +88,9 @@ export default function Bookmark() {
                 </div>
                 <div className="w-full py-3 text-center">
                     <Link href="#faq" onClick={navToggle} className='block hover:text-softRed'>FAQ</Link>
+                </div>
+                <div className="w-full py-3 text-center">
+                    <Link href="/" onClick={navToggle} className='block hover:text-softRed'>Back</Link>
                 </div>
                 <div className="w-full py-3 text-center">
                     <Link href="#" className='block hover:text-softRed'>Login</Link>
@@ -488,6 +494,9 @@ export default function Bookmark() {
                     </Link>
                     <Link href="#faq" className="uppercase hover:text-softRed">
                         FAQ
+                    </Link>
+                    <Link href="/" className="uppercase hover:text-softRed">
+                        Back
                     </Link>
                 </div>
 
